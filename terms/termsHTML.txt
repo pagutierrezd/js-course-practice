@@ -1,0 +1,22 @@
+HTML sirva para crear la estructura y el contenido de las páginas web
+
+/Tipos de etiquetas/
+<h1> a <h6>: se utilizan para definir encabezados de diferentes niveles.
+<p>: se utiliza para definir párrafos de texto.
+<a>: se utiliza para crear enlaces.
+<img>: se utiliza para insertar imágenes.
+<ul> y <li>: se utilizan para crear listas no ordenadas, es decir con biñetas.
+<ol> y <li>: se utilizan para crear listas ordenadas, es decir con enumeración.
+<div>: se utiliza para agrupar elementos y crear divisiones en la página web.
+<span>: se utiliza para agrupar elementos y crear divisiones en la página web.
+<br>: se utiliza para hacer una línea de separación en el texto.
+<hr>: se utiliza para hacer una línea de separación en la página web.
+
+/Grupos de etiquetas/
+* Bloque: Las etiquetas en bloque ocupan todo el ancho disponible.
+* En línea: Las etiquetas en línea ocupan solo el ancho necesario.
+
+/Etiquetas de texto/
+<b>: se utiliza para hacer el texto en negrita.
+<i>: se utiliza para hacer el texto en cursiva.
+<u>: se utiliza para hacer el texto subrayado.

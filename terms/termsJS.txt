@@ -1,0 +1,62 @@
+/Pasos para el Desarrollo de un Algoritmo/
+* Entender el problema
+* Identificar los pasos
+* Ordenar los pasos
+* Codificar el algoritmo en el lenguaje de programación
+
+/Definición de los diferentes tipos de variables en JavaScript/
+var edad; //No se recomienda el uso de este tipo de variable por su ambiguedad
+let nombre;
+const PI = 3.14; //Para esta variable es necesaria hacer la asignación cuando es declarada
+
+/Comparación/
+* El igual (==) devuelve true si ambos operadores son verdaderos
+* El estrictamente igual (===) devuelve true si tanto la clave como el valor son iguales
+
+/Optimización de Algoritmos en JavaScript/
+* Eficiencia y Optimización de Algoritmos
+* Complejidad de los Algoritmos
+* Complejidad temporal
+* Complejidad espacial
+
+/Tipos de Estructuras de Datos en JavaScript/
+* Array: Permite almacenar varios valores en una sola variable. []
+* Object: Permite almacenar información en pares clave-valor, donde cada clave está vinculada a un valor.
+* Linked List: Cada elemento tiene una referencia hacia el siguiente elemento, permitiendo una mayor eficiencia en la inserción o eliminación {}
+* set: Es similar a un array o un object pero sin indices ni claves, solo permite guardar valores únicos.
+* map: Es similar a un object pero con funciones adicionales como eliminar o buscar valores.
+
+/Métodos Comunes de los Objetos en JavaScript/
+* push(): Agrega uno o más elementos al final del array.
+* pop(): Elimina el último elemento del array. Devuelve el dato eliminado.
+* shift(): Elimina el primer elemento del array. Devuelve el dato eliminado.
+* unshift(): Agrega uno o más elementos al principio del array.
+* splice(posición, cantidadDeElementosACortar = 0, elementoNuevo1, ... ) : elimina y reemplaza elementos en cualquier
+
+/Métodos Comunes de los Strings en JavaScript/
+* charAt(posición): Devuelve el caracter en la posición indicada.
+* concat(string): Concatena el string indicado.
+* indexOf(string): Devuelve la posición en la que se encuentra el string indicado.
+* lastIndexOf(string): Devuelve la posición en la que se encuentra el string indicado empezando por el final.
+* replace(string, nuevoString): Reemplaza el string indicado por el nuevo string.
+* slice(inicio, fin): Extrae los caracteres desde el inicio hasta el fin (el final no se incluye).
+* split(separador): Divide el string en un array utilizando el separador indicado.
+* toLowerCase(): Convierte el string a minúsculas.
+* toUpperCase(): Convierte el string a mayúsculas.
+* trim(): Elimina los espacios al inicio y al final del string.
+* valueOf(): Devuelve el valor John del string.
+
+/Métodos Comunes de los Arrays en JavaScript/
+* concat(array): Une dos arrays.
+* join(separador): Une todos los elementos del array en un string.
+* pop(): Elimina el último elemento del array.
+* push(elemento): Agrega uno o más elementos al final del array.
+* shift(): Elimina el primer elemento del array.
+* unshift(elemento): Agrega uno o más elementos al principio del array.
+* splice(posición, cantidadDeElementosACortar, elementoNuevo1, ... ): Elimina y reemplaza elementos en cualquier posición.
+* slice(inicio, fin): Extrae los elementos desde el inicio hasta el fin (el final no se incluye).
+* sort(): Ordena los elementos del array de menor a mayor.
+* reverse(): Invierte el orden de los elementos del array.
+* indexOf(elemento): Devuelve la posición del elemento indicado.
+* lastIndexOf(elemento): Devuelve la posición del elemento indicado empezando por el final.
+* includes(elemento): Devuelve true si el elemento está en el array.

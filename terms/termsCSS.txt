@@ -1,0 +1,8 @@
+/Llamado/
+* Clases: Se inicia con punto y luego el nombre de la clase.
+* Id: Se inicia con el numeral # y luego el nombre del id.
+**Ejemplos:**
+* .Llamado
+* #id
+
+NOTA: Cuando se trabajan los estilos, los id y las clases tienen más peso que las etiquetas cuando tienen el mismo contenido.

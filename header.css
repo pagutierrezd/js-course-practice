@@ -1,0 +1,37 @@
+header{
+    background-color: rgb(235, 188, 231);
+    display: flex; /*Elimina el gruesor del bloque y lo convierte en linea*/
+    height: 100px;
+    align-items: center;
+}
+
+h1{
+    color: rgb(148, 78, 78);
+    font-size: 30px; /*Tamaño de letra*/
+    font-weight: bold; /*Gruesor de letra*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+}
+
+nav{
+    height: 50px;
+    margin-left: auto; /*Mueve el contenido al lado izquierdo*/
+    margin-right: 20px; /*Mueve el contenido al lado derecho*/
+}
+
+.etiqli{
+    display: inline; /*Elimina el bloque de la etiqueta y las pone una al lado de la otra*/
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #832c42;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(230, 207, 207);
+    text-decoration: dashed; /*Quita el subrayado*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
