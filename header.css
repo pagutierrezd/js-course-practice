@@ -22,7 +22,7 @@ nav{
     display: inline; /*Elimina el bloque de la etiqueta y las pone una al lado de la otra*/
     margin-left: 8px;
     margin-right: 8px;
-    background-color: #832c42;
+    background-color: hsl(345, 50%, 34%);
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
