@@ -32,14 +32,13 @@ if (ageClient >= 18 && sexClient == "masculino") {
 }
 
 //Determinar cuántos números enteros son pares
-let numbers = prompt(
-  "Digite 10 números enteros, separando cada uno por una coma"
-);
 let counter = 0;
+let digits;
 
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers.charAt(i) % 2 === 0) {
-    counter++;
-  }
+alert("En el siguiente apartado deberá ingresar números enteros");
+
+for(let i = 0; i < 10; i++){
+    digits = parseInt(prompt("Digite un número:"));
+    if(digits % 2 === 0) counter++;
 }
 alert(`La cantidad total de números pares son ${counter}`)
