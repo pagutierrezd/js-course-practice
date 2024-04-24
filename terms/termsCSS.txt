@@ -6,3 +6,42 @@
 * #id
 
 NOTA: Cuando se trabajan los estilos, los id y las clases tienen más peso que las etiquetas cuando tienen el mismo contenido.
+
+/Propiedades de Flexbox para contenedores/
+* display: flex = Tiene como objetivo proporcionar una forma más eficiente de diseñar, alinear y distribuir el espacio entrede un contenedor.
+* flex-direction: Define la dirección en la que se colocan los elementos.
+    - row: de izquierda a derecha
+    - row-reverse: de derecha a izquierda
+    - column: de arriba hacia abajo
+    - column-reverse: de abajo hacia arriba
+* flex-wrap: Cambia el comportamiento de una sola linea de los elementos.
+    - nowrap: todos estarán en una linea
+    - wrap:se ajustarán a varias lineas, de arriba hacia abajo
+    - wrap-reverse:se ajustarán a varias lineas de abajo hacia arriba
+* justificy-content: Define la alineación a lo largo del eje principal. Ayuda a distribuir el espacio libre de los elementos.
+    - flex-start:se cargan hacia el inicio del eje principal
+    - flex-end:se cargan hacia el final del eje principal
+    - center:se centran a lo largo del eje principal
+    - space-between:se distribuyen uniformemente en el eje principal
+    - space-around: se distribuyen uniformemente en la linea con el mismo espacio alrededor de ellos
+    - space-evenly: se distribuyen de modo que el espacio entre ellos y los bordes sea igual
+* align-items: Define el comportamiento de los elementos y cómo se distribuyen a lo largo del eje transversal(vertical).
+    - strech: se estiran para llenar el contenedor
+    - flex-start: se colocan en el inicio del eje vertical
+    - flex-end: se colocan en el extremo del eje vertical
+    - center: estan centrados en el eje vertical
+* align-content: Alinea el contenido de un contenedor cuando hay espacio adicional en el eje vertical
+    - flex-start: se acomodan al inicio del contenedor
+    - flex-end: se acomodan al final del contenedor
+    - center: al centro del contenedor
+    - space-between: son distribuidos uniformemente, la primera linea está al comienzo y la última al final
+    - space-around: son distribuidos uniformemente con el mismo espacio
+    - space-evenly: se distribuyen con el mismo espacio a su alrededor
+    - strech: se estiran para ocupar el espacio restante
+
+/Propiedades de Flexbox para elementos/
+* order:
+* flex-grow:
+* flex-basis:
+* flex-shrink:
+* align-self:
